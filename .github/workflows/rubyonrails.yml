@@ -31,7 +31,7 @@ jobs:
       - name: Create master.key
         run: echo "$MASTER_KEY" > config/master.key
         env:
-          MASTER_KEY: ${{ secrets.SECRET_KEY_BASE }}
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
 
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
