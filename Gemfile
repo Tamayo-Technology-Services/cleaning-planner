@@ -72,3 +72,4 @@ end
 gem "graphql", "~> 1.12"
 gem "graphiql-rails", group: :development
 gem 'bcrypt', '~> 3.1.13'
+gem 'dotenv-rails'
